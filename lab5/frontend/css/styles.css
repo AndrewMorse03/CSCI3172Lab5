@@ -1,0 +1,26 @@
+body {
+    background-color: #b7edb4;
+}
+
+.btn-primary{
+    background-color: green;
+    border-color: green;
+}
+
+.btn-primary:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.form-label {
+    font-size: larger;
+    padding-right: 1em;
+}
+
+#recipes {
+    display: none;
+}
+
+.formHover:hover {
+    cursor: pointer;
+}
