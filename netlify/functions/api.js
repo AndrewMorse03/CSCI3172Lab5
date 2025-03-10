@@ -14,8 +14,8 @@ api.use(cors({
     origin: '*',
 }));
 
-// const API_KEY = process.env.FOOD_API_KEY;
-const API_KEY = '38c10739a61e47138ab52d6835ed5f33';
+const API_KEY = process.env.FOOD_API_KEY;
+// const API_KEY = '38c10739a61e47138ab52d6835ed5f33';
 
 router.get("/random", async (req, res)  => {
 
