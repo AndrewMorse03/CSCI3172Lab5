@@ -14,9 +14,9 @@ async function getRecipe() {
         let response;
 
         if(checked.length == 0) {
-            response = await fetch(`netlify/functions/api/random`);
+            response = await fetch(`/api/random`);
         } else {
-            response = await fetch(`api/random?param=${checked.join(',')}`);
+            response = await fetch(`/api/random?param=${checked.join(',')}`);
         }
     
     
